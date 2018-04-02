@@ -3,7 +3,7 @@ window.onload = function(){
     el.textContent = 'Guess Number Javascript';
 }
 window.onload = function(){
-    var ans = 24;
+    var ans = Math.floor((Math.random() * 1000) + 1);;
     do{
         var num = Number(prompt('Please Guess a number from 1 to 1000'));
         if (num < ans){
